@@ -129,6 +129,7 @@ section {
 @media (max-width: 834px) {
   section {
     flex-direction: column;
+  
   }
 
   .left-side {
@@ -138,7 +139,7 @@ section {
   }
 
   .four {
-    order: 2s;
+    order: 2;
   }
   .five {
     order: 1;
