@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "JetBrains Mono", monospace;
+}
+
+/*  */
+
+section {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.left-side-top {
+  display: flex;
+  gap: 40px;
+}
+
+.left-side-top .one {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  width: 400px;
+  height: 192px;
+}
+
+.left-side-top .two {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  width: 400px;
+  height: 192px;
+}
+
+.one {
+  background-color: #ffbf47;
+}
+
+.two {
+  background-color: #3bbce3;
+}
+
+.left-side-bottom {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 840px;
+  height: 424px;
+  margin-top: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.left-side-bottom p {
+text-align: center;
+}
+
+/*  */
+
+.right-side .four {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  width: 400px;
+  height: 192px;
+}
+
+.right-side .five {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  width: 400px;
+  height: 192px;
+}
+
+.right-side .six {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  width: 400px;
+  height: 192px;
+}
+
+.four {
+  background-color: #dc91d8;
+}
+
+.five {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #8ed78f;
+}
+
+.six {
+  background-color: #ffbf47;
+}
+
+/*  */
+/* block-items */
+/*  */
+
+.block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 30px 0 30px;
+}
+
+.one-items-text p:first-child {
+  margin-bottom: 25px;
+  font-size: 30px;
+  color: white;
+}
+.one-items-text p:nth-child(2) {
+  display: inline-block;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.333);
+}
+
+.one-items-text img {
+  display: none;
+}
+
+.left-side-bottom img {
+  width: 100%;
+}
+
+.otherfont {
+  font-family: "Elsie Swash Caps", serif;
+}
