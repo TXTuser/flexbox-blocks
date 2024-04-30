@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&display=swap");
 
 * {
   margin: 0;
@@ -51,7 +51,7 @@ section {
 }
 
 .left-side-bottom p {
-text-align: center;
+  text-align: center;
 }
 
 /*  */
@@ -124,4 +124,38 @@ text-align: center;
 
 .otherfont {
   font-family: "Elsie Swash Caps", serif;
+}
+
+@media (max-width: 834px) {
+  section {
+    flex-direction: column;
+  }
+
+  .left-side {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .four {
+    order: 2s;
+  }
+  .five {
+    order: 1;
+  }
+  .six {
+    order: 3;
+  }
+
+  .right-side {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 393px) {
+  .left-side {
+    /* align-items: center; */
+  }
 }
